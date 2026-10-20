@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ivory font-body text-stone-700 antialiased;
+}
+
+::selection {
+  background: #b9dfcc;
+  color: #14352c;
+}
+
+/* Elegant thin scrollbar to match the calm palette */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f3ecdf;
+}
+::-webkit-scrollbar-thumb {
+  background: #b9dfcc;
+  border-radius: 9999px;
+  border: 2px solid #f3ecdf;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #57a585;
+}
