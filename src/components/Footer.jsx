@@ -61,7 +61,7 @@ export default function Footer() {
       <div className="border-t border-pine-900">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-pine-300 sm:flex-row sm:px-6 lg:px-8">
           <p>© {new Date().getFullYear()} MediBook. All rights reserved.</p>
-          <p>Built with React, Vite, Tailwind CSS & Framer Motion.</p>
+          <p>Built by <a className="hover:text-white" href="https://shahzaib-portfolio-muhammad-shahzaibs-projects-16858ef3.vercel.app" target="_blank" rel="noreferrer">Muhammad Shahzaib</a> with React, Vite, Tailwind CSS & Framer Motion.</p>
         </div>
       </div>
     </footer>
